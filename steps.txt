@@ -1,0 +1,21 @@
+npm init -y 
+
+npm install typescript ts-node @types/node --save-dev
+
+npx tsc --init
+
+npm install express cors dotenv
+
+npm install @prisma/client  
+
+npm install --save-dev prisma
+
+npx prisma init
+
+npx prisma migrate dev --name init (if it fails, resolve the issues and then) npx prisma format (and then) npx prisma migrate dev --name init
+
+npm install --save-dev @types/express
+
+npm install --save-dev @types/cors
+
+npx ts-node server.ts
